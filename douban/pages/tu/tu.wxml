@@ -1,0 +1,7 @@
+<view class="container">
+    <canvas canvas-id="lineCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+    <canvas canvas-id="lineCanvas2" class="canvas" bindtouchstart="touchHandler"></canvas>
+    <navigator class = "toimg" url="../getimg/getimg?url={{params.url}}">
+         <image class = "toimgbt" src="../../images/button.png"></image>
+    </navigator>
+</view>

@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/platform/platform",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/plist/plist",
+    "pages/tu/tu",
+    "pages/getimg/getimg",
+    "pages/pdetail/pdetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "集合精选",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#ccc",
+    "list":[
+      {
+        "text":"品牌",
+        "iconPath":"images/online_shop2.png",
+        "selectedIconPath":"images/online_shop.png",
+        "pagePath":"pages/index/index"
+      },
+      {
+        "text":"平台",
+        "iconPath":"images/usbox.png",
+        "selectedIconPath":"images/usbox-actived.png",
+        "pagePath":"pages/platform/platform"
+      }
+    ]
+  }
+}

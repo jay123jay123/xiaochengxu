@@ -1,0 +1,13 @@
+<view class="page-header">
+	<text class="page-header-text">{{title}}</text>
+</view>
+<scroll-view class="page-body" scroll-y="true">
+	<navigator url="../detail/detail?tb={{item.name}}" wx:for="{{brand}}">
+		<view class="item">
+			<image class="poster" src="../../images/{{item.img}}"></image>
+			<view class="meta">
+				<text class="title">{{item.name}}</text>
+			</view>
+		</view>
+	</navigator>
+</scroll-view>

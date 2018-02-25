@@ -1,0 +1,13 @@
+<view class="page-header">
+	<text class="page-header-text">{{title}}</text>
+</view>
+<scroll-view class="page-body" scroll-y="true">
+	<navigator url="../plist/plist?tb={{item.tb}}&brand={{item.brand}}" wx:for="{{classify}}">
+		<view class="item" >
+			<view class="meta">
+				<text class="title">{{item.brand}}</text>
+        <text class="sub-title"> 更新时间 ： {{item.gettime}}</text>
+			</view>
+		</view>
+	</navigator>
+</scroll-view>

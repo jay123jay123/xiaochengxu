@@ -1,0 +1,11 @@
+<view class="page-header">
+	<text class="page-header-text">{{title}}</text>
+</view>
+<scroll-view class="page-body" scroll-y="true">
+		<view class="item" wx:for="{{list}}">
+			<view class="meta">
+				<text class="title"> {{index + 1}})  {{item.name}}</text>
+        <text class="sub-title"> 销量：{{item.sales}} 价格： {{item.price}}   [ {{item.storename}} ]  </text>
+			</view>
+		</view>
+</scroll-view>

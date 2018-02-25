@@ -1,0 +1,5 @@
+<view class="item"  wx:for="{{userPhotos}}">
+			<view class="photo">
+        <image bindtap="imgYu" data-list="{{userPhotos}}" data-src="{{userPhotos}}" mode="{{ mode }}" style="width: {{ width }}; height: {{ height }};" src="{{ userPhotos[index] }}"></image>
+      </view>
+</view>

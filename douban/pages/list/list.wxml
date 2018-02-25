@@ -1,0 +1,13 @@
+<view class="page-header">
+	<text class="page-header-text">{{title}}</text>
+</view>
+<scroll-view class="page-body" scroll-y="true">
+	<navigator url="../tu/tu?tb={{item.tb}}&brand={{item.brand}}&url={{item.url}}" wx:for="{{list}}">
+		<view class="item">
+			<view class="meta">
+				<text class="title"> {{index + 1}})  {{item.name}}</text>
+        <text class="sub-title"> 销量 ： {{item.msales}} 价格 ：  {{item.mprice}} 促销价 ： {{item.promotion_price}} 折扣 ： {{item.discount}}  </text>
+			</view>
+		</view>
+	</navigator>    
+</scroll-view>
